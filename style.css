@@ -1,0 +1,130 @@
+.top {
+  background-image: url(/pictures/Обложка.jpg);
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
+  //width: auto;
+  //max-height: 100%;
+  //max-width: 896px;
+  //overflow: auto;
+  margin: auto;
+}
+
+h1 { 
+  font-family: 'Great Vibes';
+  font-weight: 100;
+  font-size: 50px;
+  margin-top: 0px; 
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-top: 0px;     
+}
+
+p { 
+  font-family: 'Raleway', sans-serif;
+  font: size 35px;
+  margin-top: -25px; 
+  margin-bottom: 15px;
+  text-align: center;
+} 
+
+body {
+  margin: 0;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 896px) {
+.container {
+    width: 100%;
+    max-width: 896px;
+    padding-bottom: 30px;
+    overflow: scroll;
+}
+}
+
+img {
+  height: auto;
+  width: 100%;
+  /* еще больше контроля с max-width */
+  max-width: 720px;
+} 
+
+.form {
+  border: 3px solid rgb(189, 170, 93);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: auto;
+  max-width: 300px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+.label {
+  margin-top: 20px;
+}
+
+.input {
+  margin-bottom: 20px;
+  padding: auto;
+  font-size: xx-small;
+  font-family: 'Raleway', sans-serif;
+}
+
+.drinks {
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  display:grid;
+  width: 110px;
+}
+
+.drink {
+  margin-top: 5px;
+  text-align: left;
+}
+
+input {
+  margin-bottom: auto;
+}
+
+.anketa {
+  font-weight: 200;
+  font-size: 35px;
+}
+
+button {
+  background: rgb(189, 170, 93);
+  padding: .3em 2em calc(.3em + 1px);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: aliceblue;
+}
+
+.timer {
+  margin-top: -15px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  color: rgb(189, 170, 93);            
+}
+
+.main {
+  padding-bottom: 100px;
+}
+
+.text-block {
+  opacity: 0; /* начальная прозрачность */
+  transition: opacity 1s ease-in-out; /* устанавливаем переход */
+}
+
+.text-container {
+  opacity: 0; /* начальная прозрачность */
+  transition: opacity 0s ease-in-out; /* устанавливаем переход */  
+  margin-top: 10px;
+  max-width: 300px;
+  text-align: center;
+}
