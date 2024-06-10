@@ -68,6 +68,9 @@ img {
 
 .label {
   margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;     
 }
 
 .input {
