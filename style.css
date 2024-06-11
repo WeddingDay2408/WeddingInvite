@@ -73,6 +73,13 @@ img {
   font-weight: bold;     
 }
 
+input[type="text"] {
+  width: 250px;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
 .input {
   margin-bottom: 20px;
   padding: auto;
